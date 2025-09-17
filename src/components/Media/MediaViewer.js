@@ -56,11 +56,16 @@ function MediaViewer({ media, onEnded, onAnnotationClick }) {
     }
   };
 
+  const handleImageError = (e) => {
+    console.error('Image failed to load:', e.target.src);
+    e.target.onerror = null; // Prevent infinite loop
+    e.target.src = '/fallback-image.webp'; // Add a fallback image in public folder
+  };
+
   if (!media) return null;
 
   return (
-    <div
-      style={{ position: 'relative', width: '100%', maxWidth: 420 }}
+    <div className="media-container"
       onMouseDown={() => { setPressing(true); pause(); }}
       onMouseUp={() => { setPressing(false); resume(); }}
       onMouseLeave={() => { if (pressing) { setPressing(false); resume(); } }}
@@ -69,15 +74,19 @@ function MediaViewer({ media, onEnded, onAnnotationClick }) {
     >
       {media.type === 'image' ? (
         <>
-          <img src={media.src} alt={media.alt || ''} style={{ width: '100%', borderRadius: 8 }} />
+          <img 
+            src={process.env.PUBLIC_URL + media.src} 
+            alt={media.alt || ''} 
+            loading="eager"
+            onError={handleImageError}
+          />
           <ProgressBar ref={barRef} durationMs={IMAGE_MS} />
         </>
       ) : (
         <video
           key={media.id}
           ref={videoRef}
-          poster={media.poster}
-          style={{ width: '100%', borderRadius: 8 }}
+          poster={process.env.PUBLIC_URL + media.poster}
           playsInline
           muted
           controls={false}
@@ -87,7 +96,7 @@ function MediaViewer({ media, onEnded, onAnnotationClick }) {
             el && el.play().catch(() => {});
           }}
         >
-          <source src={media.src} type="video/mp4" />
+          <source src={process.env.PUBLIC_URL + media.src} type="video/mp4" />
         </video>
       )}
     </div>
