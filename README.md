@@ -1,6 +1,26 @@
+# Lookbook: An Interactive Fashion Showcase
+
+## Overview
+
+This project is an interactive **Lookbook** component for a fashion e-commerce platform, designed to provide a modern, engaging user experience similar to Instagram Stories. It allows users to view collections of images and videos (called "Looks") that showcase products worn by customers and celebrities.
+
+The application focuses on a seamless, mobile-first web experience with the following key features:
+* **Story-like Navigation:** Users can tap to cycle through images and videos within a single Look and swipe vertically to move between different Looks.
+* **Timed Previews:** Images are displayed with a 5-second progress bar, while videos play to completion.
+* **Product Annotations:** Images feature interactive dots that highlight specific products.
+* **Product Discovery:** Clicking on an annotation or a "Shop" button reveals a product card, linking directly to the product's detail page.
+
+
+To get a local copy up and running, follow these simple steps.
+
+### 1. Clone the Repository
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+
+
 
 ## Available Scripts
 
