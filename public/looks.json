@@ -1,0 +1,47 @@
+{
+  "looks": [
+    {
+      "id": "look-1",
+      "title": "Look 1",
+      "media": [
+        { "id": "l1-m1", "type": "image", "src": "/shirt1.webp", "alt": "Bear House solid casual purple shirt", "annotations": [{ "id": "l1-a1", "productId": "p4", "xPct": 52, "yPct": 50 }] },
+        { "id": "l1-m2", "type": "image", "src": "/shirt3.webp", "alt": "Bear House checkered multicolor shirt", "annotations": [{ "id": "l1-a2", "productId": "p5", "xPct": 50, "yPct": 55 }] },
+        { "id": "l1-m3", "type": "image", "src": "/shirt1.webp", "alt": "Bear House shirt 4", "annotations": [{ "id": "l1-a3", "productId": "p4", "xPct": 54, "yPct": 52 }] },
+        { "id": "l1-m-video", "type": "video", "src": "/shirtVideo.mp4", "poster": "/shirt1.webp", "alt": "Shirt runway video", "annotations": [{ "id": "l1-aV", "productId": "p4", "xPct": 55, "yPct": 45 }] }
+      ],
+      "products": [
+        { "id": "p4", "name": "Bear House – Solid Casual Purple Shirt", "priceText": "See price on site", "image": "/shirt1.webp", "pdpUrl": "https://www.flipkart.com/bear-house-men-solid-casual-purple-shirt/p/itm962fcab385dd3?pid=SHTGR828ZJEXRV4F&lid=LSTSHTGR828ZJEXRV4FOMWKS4&marketplace=FLIPKART&q=the+bear+house+shirt&store=clo%2Fash%2Faxc%2Fmmk%2Fkp7&srno=s_1_7&otracker=AS_QueryStore_OrganicAutoSuggest_1_8_sc_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_8_sc_na_ps&fm=search-autosuggest&iid=bef1d10d-6a2a-4597-be21-88e7531a7a89.SHTGR828ZJEXRV4F.SEARCH&ppt=sp&ppn=sp&qH=d03fa30a1e46499f" },
+        { "id": "p5", "name": "Bear House – Checkered Casual Multicolor Shirt", "priceText": "See price on site", "image": "/shirt3.webp", "pdpUrl": "https://www.flipkart.com/bear-house-men-checkered-casual-blue-shirt/p/itm299b74ab35a78?pid=SHTGVBZBAQTGXPMS&lid=LSTSHTGVBZBAQTGXPMSSSLO1R&marketplace=FLIPKART&fm=factBasedRecommendation%2FrecentlyViewed&iid=R%3Arv%3Bpt%3App%3Buid%3Aa4d7a8cd-93ac-11f0-bedc-6f9341747a1b%3B.SHTGVBZBAQTGXPMS&ppt=pp&ppn=pp&ssid=2h6s0np7e80000001758102934642&otracker=pp_reco_Recently%2BViewed_2_40.productCard.RECENTLY_VIEWED_THE%2BBEAR%2BHOUSE%2BMen%2BCheckered%2BCasual%2BBlue%2BShirt_SHTGVBZBAQTGXPMS_factBasedRecommendation%2FrecentlyViewed_1&otracker1=pp_reco_PINNED_factBasedRecommendation%2FrecentlyViewed_Recently%2BViewed_DESKTOP_HORIZONTAL_productCard_cc_2_NA_view-all&cid=SHTGVBZBAQTGXPMS" }
+      ]
+    },
+    {
+      "id": "look-2",
+      "title": "Look 2",
+      "media": [
+        { "id": "l2-m1", "type": "image", "src": "/shirt3.webp", "alt": "Model in cool shirt", "annotations": [{ "id": "l2-a1", "productId": "p3", "xPct": 35, "yPct": 40 }] },
+        { "id": "l2-m2", "type": "video", "src": "/shirtVideo.mp4", "poster": "/shirt2.webp", "alt": "Shirt runway video", "annotations": [{ "id": "l2-aV1", "productId": "p3", "xPct": 40, "yPct": 42 }] },
+        { "id": "l2-m3", "type": "image", "src": "/shirt1.webp", "alt": "Bear House solid casual purple shirt", "annotations": [{ "id": "l2-a2", "productId": "p4", "xPct": 52, "yPct": 50 }] }
+      ],
+      "products": [
+        { "id": "p3", "name": "Bear House – Cool Casual Multicolor Shirt", "priceText": "$210 – $260", "image": "/shirt2.webp", "pdpUrl": "https://www.flipkart.com/bear-house-men-cool-casual-multicolor-shirt/p/itm299b74ab35a78?pid=SHTGVBZBAQTGXPMS&lid=LSTSHTGVBZBAQTGXPMSSSLO1R&marketplace=FLIPKART&fm=factBasedRecommendation%2FrecentlyViewed&iid=R%3Arv%3Bpt%3App%3Buid%3Aa4d7a8cd-93ac-11f0-bedc-6f9341747a1b%3B.SHTGVBZBAQTGXPMS&ppt=pp&ppn=pp&ssid=2h6s0np7e80000001758102934642&otracker=pp_reco_Recently%2BViewed_2_40.productCard.RECENTLY_VIEWED_THE%2BBEAR%2BHOUSE%2BMen%2BCheckered%2BCasual%2BBlue%2BShirt_SHTGVBZBAQTGXPMS_factBasedRecommendation%2FrecentlyViewed_1&otracker1=pp_reco_PINNED_factBasedRecommendation%2FrecentlyViewed_Recently%2BViewed_DESKTOP_HORIZONTAL_productCard_cc_2_NA_view-all&cid=SHTGVBZBAQTGXPMS" },
+        { "id": "p4", "name": "Bear House – Solid Casual Purple Shirt", "priceText": "See price on site", "image": "/shirt1.webp", "pdpUrl": "https://www.flipkart.com/bear-house-men-solid-casual-purple-shirt/p/itm962fcab385dd3?pid=SHTGR828ZJEXRV4F&lid=LSTSHTGR828ZJEXRV4FOMWKS4&marketplace=FLIPKART&q=the+bear+house+shirt&store=clo%2Fash%2Faxc%2Fmmk%2Fkp7&srno=s_1_7&otracker=AS_QueryStore_OrganicAutoSuggest_1_8_sc_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_8_sc_na_ps&fm=search-autosuggest&iid=bef1d10d-6a2a-4597-be21-88e7531a7a89.SHTGR828ZJEXRV4F.SEARCH&ppt=sp&ppn=sp&qH=d03fa30a1e46499f" }
+      ]
+    },
+    {
+      "id": "look-3",
+      "title": "Look 3",
+      "media": [
+        { "id": "l3-m1", "type": "image", "src": "/shirt3.webp", "alt": "Bear House checkered blue shirt", "annotations": [{ "id": "l3-a1", "productId": "p5", "xPct": 50, "yPct": 55 }] },
+        { "id": "l3-m2", "type": "image", "src": "/shirt1.webp", "alt": "Bear House solid casual purple shirt", "annotations": [{ "id": "l3-a2", "productId": "p4", "xPct": 52, "yPct": 50 }] },
+        { "id": "l3-m3", "type": "video", "src": "/shirtVideo.mp4", "poster": "/shirt3.webp", "alt": "Shirt runway video", "annotations": [{ "id": "l3-aV1", "productId": "p5", "xPct": 48, "yPct": 52 }] },
+        { "id": "l3-m4", "type": "image", "src": "/shirt1.webp", "alt": "Bear House shirt 5", "annotations": [{ "id": "l3-a3", "productId": "p5", "xPct": 52, "yPct": 54 }] }
+      ],
+      "products": [
+        { "id": "p4", "name": "Bear House – Solid Casual Purple Shirt", "priceText": "See price on site", "image": "/shirt1.webp", "pdpUrl": "https://www.flipkart.com/bear-house-men-solid-casual-purple-shirt/p/itm962fcab385dd3?pid=SHTGR828ZJEXRV4F&lid=LSTSHTGR828ZJEXRV4FOMWKS4&marketplace=FLIPKART&q=the+bear+house+shirt&store=clo%2Fash%2Faxc%2Fmmk%2Fkp7&srno=s_1_7&otracker=AS_QueryStore_OrganicAutoSuggest_1_8_sc_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_8_sc_na_ps&fm=search-autosuggest&iid=bef1d10d-6a2a-4597-be21-88e7531a7a89.SHTGR828ZJEXRV4F.SEARCH&ppt=sp&ppn=sp&qH=d03fa30a1e46499f" },
+        { "id": "p5", "name": "Bear House – Checkered Casual Multicolor Shirt", "priceText": "See price on site", "image": "/shirt3.webp", "pdpUrl": "https://www.flipkart.com/bear-house-men-checkered-casual-blue-shirt/p/itm299b74ab35a78?pid=SHTGVBZBAQTGXPMS&lid=LSTSHTGVBZBAQTGXPMSSSLO1R&marketplace=FLIPKART&fm=factBasedRecommendation%2FrecentlyViewed&iid=R%3Arv%3Bpt%3App%3Buid%3Aa4d7a8cd-93ac-11f0-bedc-6f9341747a1b%3B.SHTGVBZBAQTGXPMS&ppt=pp&ppn=pp&ssid=2h6s0np7e80000001758102934642&otracker=pp_reco_Recently%2BViewed_2_40.productCard.RECENTLY_VIEWED_THE%2BBEAR%2BHOUSE%2BMen%2BCheckered%2BCasual%2BBlue%2BShirt_SHTGVBZBAQTGXPMS_factBasedRecommendation%2FrecentlyViewed_1&otracker1=pp_reco_PINNED_factBasedRecommendation%2FrecentlyViewed_Recently%2BViewed_DESKTOP_HORIZONTAL_productCard_cc_2_NA_view-all&cid=SHTGVBZBAQTGXPMS" }
+      ]
+    }
+  ]
+}
+
+
